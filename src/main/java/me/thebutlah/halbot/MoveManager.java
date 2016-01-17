@@ -8,9 +8,9 @@ package me.thebutlah.halbot;
  */
 public class MoveManager {
 	
-	private final OOPBot robot;
+	private final HalBot robot;
 	
-	public MoveManager(OOPBot robot) {
+	public MoveManager(HalBot robot) {
 		this.robot = robot;
 	}
 

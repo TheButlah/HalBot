@@ -12,9 +12,9 @@ package me.thebutlah.halbot;
  */
 public class SurroundingsManager {
 
-	private final OOPBot robot;
+	private final HalBot robot;
 	
-	public SurroundingsManager(OOPBot robot) {
+	public SurroundingsManager(HalBot robot) {
 		this.robot = robot;
 	}
 	

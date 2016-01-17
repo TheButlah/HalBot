@@ -7,11 +7,11 @@ public class RadarManager {
 	
 	private static final double OSCILLATION_VALUE = Rules.RADAR_TURN_RATE_RADIANS/2*.75;
 
-	private final OOPBot robot;
+	private final HalBot robot;
 	
 	private boolean lastScanClockwise = true;
 		
-	public RadarManager(OOPBot robot) {
+	public RadarManager(HalBot robot) {
 		this.robot = robot;
 	}
 	

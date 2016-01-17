@@ -21,9 +21,9 @@ public class Enemy {
 	private double lastEnergy;
 	private double timeScanned;
 		
-	private final OOPBot robot;
+	private final HalBot robot;
 	
-	public Enemy(ScannedRobotEvent e, OOPBot robot) {
+	public Enemy(ScannedRobotEvent e, HalBot robot) {
 		this.robot = robot;
 		this.lastEnergy = e.getEnergy();
 		updateInfo(e);

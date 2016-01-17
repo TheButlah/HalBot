@@ -6,12 +6,12 @@ import robocode.util.Utils;
 
 public class GunManager {
 	
-	private final OOPBot robot;
+	private final HalBot robot;
 	
 	private boolean shouldFire = false;
 	private double firePower = .1;
 		
-	public GunManager(OOPBot robot) {
+	public GunManager(HalBot robot) {
 		this.robot = robot;		
 	}
 	

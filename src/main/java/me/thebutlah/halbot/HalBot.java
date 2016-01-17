@@ -17,9 +17,7 @@ import robocode.*;
  * @author TheButlah
  *
  */
-public class OOPBot extends AdvancedRobot {
-	
-	//public static JewBot robot;
+public class HalBot extends AdvancedRobot {
 
 	GunManager gman = new GunManager(this);
 	RadarManager rman = new RadarManager(this);

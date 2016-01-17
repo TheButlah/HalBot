@@ -13,7 +13,7 @@ public class EnemyBullet {
 	
 	Color bulletColor = new Color(255, 0, 0, 64);
 	
-	private final OOPBot robot;
+	private final HalBot robot;
 	
 	private final double power;
 	private final Point2D startLocation;
@@ -25,7 +25,7 @@ public class EnemyBullet {
 	//represent current bullet location (should be updated every turn)
 	private Point2D[]  possibleLocations = new Point2D[2];
 	
-	public EnemyBullet(Point2D startLocation, double power, OOPBot robot) {
+	public EnemyBullet(Point2D startLocation, double power, HalBot robot) {
 		this.robot = robot;
 		this.power = power;
 		this.startLocation = startLocation;
